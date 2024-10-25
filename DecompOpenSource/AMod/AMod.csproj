@@ -100,7 +100,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Amod\" />
+    <Folder Include="AMod\" />
   </ItemGroup>
-
+<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
