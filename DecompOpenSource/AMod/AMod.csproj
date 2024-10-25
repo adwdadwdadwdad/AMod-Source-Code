@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>AMod</RootNamespace>
     <AssemblyName>AMod</AssemblyName>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
