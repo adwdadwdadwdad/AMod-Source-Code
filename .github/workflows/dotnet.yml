@@ -16,8 +16,8 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore DecompOpenSource
+      run: dotnet restore
     - name: Build
-      run: dotnet build DecompOpenSource --no-restore
+      run: dotnet build --no-restore
     - name: Test
-      run: dotnet test DecompOpenSource --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity normal
